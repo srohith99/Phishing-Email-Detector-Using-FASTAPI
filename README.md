@@ -21,7 +21,7 @@ rule-based analysis and a Machine Learning model trained on a real Kaggle datase
 - Pandas (Data handling)
 - Joblib (Model persistence)
 - Streamlit (Frontend UI)
-
+- dataset (https://www.kaggle.com/datasets/naserabdullahalam/phishing-email-dataset?resource=download)
 
 ## 📁 Project Structure
 
