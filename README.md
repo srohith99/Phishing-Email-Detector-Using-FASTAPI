@@ -43,28 +43,28 @@ phishing-detector/
 mkdir phishing-detector
 cd phishing-detector
 
-###Step 2 — Create & Activate Virtual Environment
+### Step 2 — Create & Activate Virtual Environment
 python -m venv venv
 venv\Scripts\activate
 
-###Step 3 — Install Dependencies
+### Step 3 — Install Dependencies
 
 pip install -r requirements.txt
 
-###Step 4 — Train the Machine Learning Model
+### Step 4 — Train the Machine Learning Model
 
 python ml_train.py
 ✔ This creates model.pkl
 ✔ Model trained using Kaggle dataset
 
-###Step 5 — Start FastAPI Backend
+### Step 5 — Start FastAPI Backend
 
 python -m uvicorn main:app --reload
 API: http://127.0.0.1:8000
 
 Docs: http://127.0.0.1:8000/docs
 
-###Step 6 — Start Streamlit Frontend (New Terminal)
+### Step 6 — Start Streamlit Frontend (New Terminal)
 
 venv\Scripts\activate
 streamlit run app.py
@@ -89,7 +89,7 @@ json
   "confidence": 98
 }
 
-###📌 Use Cases
+### 📌 Use Cases
 Cybersecurity learning
 
 Internship / portfolio project
@@ -98,7 +98,7 @@ Email security systems
 
 FastAPI + ML integration demo
 
-###🚀 Future Enhancements
+### 🚀 Future Enhancements
 URL reputation analysis
 
 Sender domain verification
